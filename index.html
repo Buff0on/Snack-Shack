@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Snack Shack is a quick, cash-only student snack club in the Student Commons."
+    />
+    <title>The Snack Shack | Quick snacks, happy breaks</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="The Snack Shack home">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>Snack Shack</span>
+        </a>
+        <div class="nav-links">
+          <a href="#menu">Menu</a>
+          <a href="#location">Where to find us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Open during lunch</p>
+          <h1 id="page-title">Small snacks.<br /><em>Big break energy.</em></h1>
+          <p class="hero-description">
+            A cheerful little snack stop for busy students, right when you need a tasty boost.
+          </p>
+          <a class="primary-button" href="#menu">
+            See today's snacks
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a snack bag and a drink" role="img">
+          <div class="hero-sun"></div>
+          <div class="hero-sparkle sparkle-one">✦</div>
+          <div class="hero-sparkle sparkle-two">✦</div>
+          <div class="snack-bag">
+            <span class="bag-shine"></span>
+            <span class="bag-label">SNACK<br /><strong>SHACK</strong></span>
+            <span class="bag-seal"></span>
+          </div>
+          <div class="juice-box">
+            <span class="juice-straw"></span>
+            <span class="juice-label">SIP<br />HAPPY</span>
+          </div>
+          <div class="hero-shadow"></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Grab &amp; go</p>
+            <h2 id="menu-title">Today's menu</h2>
+          </div>
+          <p class="section-note">Good stuff, simple prices.<br />All items are ready at lunch.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="snack-card">
+            <div class="snack-image snack-image--chips">
+              <img src="assets/chips.svg" alt="Illustration of a bag of sea salt chips" />
+              <span class="snack-tag">Crunchy</span>
+            </div>
+            <div class="snack-info">
+              <div>
+                <h3>Sea Salt Chips</h3>
+                <p>Classic &amp; crispy</p>
+              </div>
+              <span class="price">$1.25</span>
+            </div>
+          </article>
+
+          <article class="snack-card">
+            <div class="snack-image snack-image--pretzel">
+              <img src="assets/pretzel.svg" alt="Illustration of a soft pretzel" />
+              <span class="snack-tag">Warm</span>
+            </div>
+            <div class="snack-info">
+              <div>
+                <h3>Soft Pretzel</h3>
+                <p>Salty, soft &amp; golden</p>
+              </div>
+              <span class="price">$1.50</span>
+            </div>
+          </article>
+
+          <article class="snack-card">
+            <div class="snack-image snack-image--fruit">
+              <img src="assets/fruit-snacks.svg" alt="Illustration of a fruit snacks pouch" />
+              <span class="snack-tag">Fruity</span>
+            </div>
+            <div class="snack-info">
+              <div>
+                <h3>Fruit Snacks</h3>
+                <p>Chewy little shapes</p>
+              </div>
+              <span class="price">$1.00</span>
+            </div>
+          </article>
+
+          <article class="snack-card">
+            <div class="snack-image snack-image--granola">
+              <img src="assets/granola.svg" alt="Illustration of a granola bar" />
+              <span class="snack-tag">Nuts &amp; oats</span>
+            </div>
+            <div class="snack-info">
+              <div>
+                <h3>Granola Bar</h3>
+                <p>Oats, honey &amp; energy</p>
+              </div>
+              <span class="price">$1.25</span>
+            </div>
+          </article>
+
+          <article class="snack-card">
+            <div class="snack-image snack-image--popcorn">
+              <img src="assets/popcorn.svg" alt="Illustration of a bag of popcorn" />
+              <span class="snack-tag">Buttery</span>
+            </div>
+            <div class="snack-info">
+              <div>
+                <h3>Popcorn</h3>
+                <p>Light, fluffy &amp; buttery</p>
+              </div>
+              <span class="price">$1.00</span>
+            </div>
+          </article>
+
+          <article class="snack-card">
+            <div class="snack-image snack-image--cookie">
+              <img src="assets/cookie.svg" alt="Illustration of a chocolate chip cookie" />
+              <span class="snack-tag">Fresh baked</span>
+            </div>
+            <div class="snack-info">
+              <div>
+                <h3>Choc Chip Cookie</h3>
+                <p>Soft in the middle</p>
+              </div>
+              <span class="price">$1.25</span>
+            </div>
+          </article>
+
+          <article class="snack-card">
+            <div class="snack-image snack-image--water">
+              <img src="assets/water.svg" alt="Illustration of a bottle of water" />
+              <span class="snack-tag">Refreshing</span>
+            </div>
+            <div class="snack-info">
+              <div>
+                <h3>Cool Water</h3>
+                <p>Stay hydrated</p>
+              </div>
+              <span class="price">$1.00</span>
+            </div>
+          </article>
+
+          <article class="snack-card">
+            <div class="snack-image snack-image--gummies">
+              <img src="assets/gummies.svg" alt="Illustration of a gummy candy pouch" />
+              <span class="snack-tag">Sweet</span>
+            </div>
+            <div class="snack-info">
+              <div>
+                <h3>Gummy Mix</h3>
+                <p>Bright &amp; chewy</p>
+              </div>
+              <span class="price">$1.25</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="quick-note" aria-label="Snack Shack reminder">
+        <span class="quick-note-icon" aria-hidden="true">☻</span>
+        <p>See something you like? Bring your cash and swing by at lunch.</p>
+        <span class="quick-note-star" aria-hidden="true">✦</span>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="location">
+      <div class="footer-inner">
+        <div class="footer-intro">
+          <p class="eyebrow">Come say hi</p>
+          <h2>Find the<br /><em>Snack Shack.</em></h2>
+          <p class="footer-copy">Quick snacks, friendly faces, and a little more energy for the rest of your day.</p>
+        </div>
+        <div class="footer-details">
+          <div class="detail-block">
+            <span class="detail-icon" aria-hidden="true">⌖</span>
+            <div>
+              <h3>Location</h3>
+              <p>Student Commons<br />Near the east entrance</p>
+            </div>
+          </div>
+          <div class="detail-block">
+            <span class="detail-icon" aria-hidden="true">◷</span>
+            <div>
+              <h3>Open</h3>
+              <p>Monday–Friday<br />11:30 AM–1:00 PM</p>
+            </div>
+          </div>
+          <div class="detail-block detail-block--cash">
+            <span class="detail-icon" aria-hidden="true">$</span>
+            <div>
+              <h3>Cash only</h3>
+              <p>Please bring small bills<br />and exact change if you can.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Made for hungry students ✦</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
